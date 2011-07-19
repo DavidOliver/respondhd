@@ -53,7 +53,9 @@
 		}
 		
 		public function initialise() {
-			
+			$hdemail = Symphony::Configuration()->get('hdemail', 'respondhd');
+			$hdsecret = Symphony::Configuration()->get('hdsecret', 'respondhd');
+			$hdsiteid = Symphony::Configuration()->get('hdsiteid', 'respondhd');
 		}
 		
 	}
