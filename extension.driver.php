@@ -56,6 +56,7 @@
 			$hdemail = Symphony::Configuration()->get('hdemail', 'respondhd');
 			$hdsecret = Symphony::Configuration()->get('hdsecret', 'respondhd');
 			$hdsiteid = Symphony::Configuration()->get('hdsiteid', 'respondhd');
+			$hdsoftwaretoken = '8dee56480a1cd3a11ec19b0ed81977b6';
 		}
 		
 	}
